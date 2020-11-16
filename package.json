@@ -1,0 +1,22 @@
+{
+  "name": "todos-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:watch\" \"npm run dev:build\"",
+    "dev:watch": "parcel watch index.html",
+    "dev:build": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "sass": "^1.29.0"
+  }
+}
